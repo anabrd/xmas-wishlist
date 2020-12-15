@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Schoolbell&display=swap" rel="stylesheet">
+    <!-- async attribute in script allows for the JS script to be rendered at the same time as DOM -->
+    <!-- alternatively, it can be placed at the end of the document, before the closing html tag -->
+    <script async src="./task.js"></script>
+
+</head>
+
+<body>
+
+    <section id="form">
+        <h2>Xmas Wishlist</h2>
+        <h3>What would you like to get this Christmas?</h3>
+        <input type="text" id="title" placeholder="What do you wish for?">
+        <textarea id="item"
+            placeholder="Please type explanation here, so Santa can decide whether you're worthy..."></textarea>
+        <button><a href="./wishlist.html" onclick="reader()">Submit</a></button>
+    </section>
+
+</body>
+
+</html>
